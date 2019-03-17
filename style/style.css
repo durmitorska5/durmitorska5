@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    /* margin-right: 20px; */
+    display: inline-block;
+    border-radius: 20px;
+    background: #ffc107;
+    font-weight: bold;
+    color: #212529;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+nav a:hover {
+    background: #cc9b06;
+    text-decoration: none;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+a {
+    border-radius: 10px;
+    background: white;
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article {
+    padding: 10px 20px;
+    background-color: rgb(240, 240, 240);
+}
+
+article a {
+    display: inline-block;
+    border-radius: 20px;
+    background: #ffc107;
+    font-weight: bold;
+    color: #212529;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+}
+
+article a:hover {
+    background: #cc9b06;
+    text-decoration: none;
+}
+
+header.main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.heading {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0, .7);
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, rgba(44,83,100,.75), rgba(32,58,67,.75),rgba(15,32,39,.75));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, rgba(44,83,100,.75), rgba(32,58,67,.75), rgba(15,32,39,.75)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    margin: 10px 0;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+}
+
+td {
+    padding: 5px;
+}
+
+tr::nth-child(odd) {
+    background-color: red;
+}
+
+.broj-uplata {
+    text-align: center;
+}
+
+.nav-container,
+.nav-container-email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container-email {
+    margin-top: 0;
+}
+
+.nav-container-email span {
+    margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav a {
+        display: block;
+    }
+    .nav-container-email {
+        margin-top: 10px;
+    }
+}

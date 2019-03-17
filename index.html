@@ -110,11 +110,18 @@
             vrednostUplata.push(celijeBrojUplata[i].innerHTML);
         }
 
-        function onlyUnique(value, index, self) { 
-            return self.indexOf(value) === index;
-        }
+        let max = Math.max.apply(null, vrednostUplata);
 
-        var unique = vrednostUplata.filter(onlyUnique);
+        for (let i = 1; i < celijeBrojUplata.length; i++) {
+            vrednostUplata.push(celijeBrojUplata[i].innerHTML);
+            if ((celijeBrojUplata[i].innerHTML / max) < 0.15) {
+                celijeBrojUplata[i].parentNode.style.backgroundColor = "rgb(255, 56, 7)";
+            } else if ((celijeBrojUplata[i].innerHTML / max) < 0.45) {
+                celijeBrojUplata[i].parentNode.style.backgroundColor = "rgb(255, 173, 7)";
+            // } else if (celijeBrojUplata[i].innerHTML == "4" || celijeBrojUplata[i].innerHTML == "5") {
+                // celijeBrojUplata[i].parentNode.style.backgroundColor = "rgb(255, 235, 7)";
+            }
+        }
     </script>
 </body>
 </html>

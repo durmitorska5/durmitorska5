@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Durmitorska 5 sajt stanara</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136341805-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-136341805-1');
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+        }
+
+        main {
+            max-width: 960px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        nav {
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(211, 211, 211);
+        }
+
+        nav a {
+            padding-right: 20px;
+        }
+
+        a {
+            font-weight: bold;
+            color: red;
+            text-decoration: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            padding: 10px;
+            background-color: rgb(240, 240, 240);
+        }
+
+        article a {
+            display: block;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+
+        table {
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        th {
+            text-align: left;
+            padding: 5px;
+        }
+
+        td {
+            padding: 5px;
+        }
+
+        tr::nth-child(odd) {
+            background-color: red;
+        }
+
+        .broj-uplata {
+            text-align: center;
+        }
+
+        .nav-container {
+            display: flex;
+            align-items: center;
+        }
+
+        @media only screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+            .nav-container {
+                display: flex;
+                justify-content: space-between;
+            }
+            nav a {
+                display: block;
+                padding-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <div>
+                <h1>Durmitorska 5</h1>
+                <p>sajt stanara zgrade</p>
+            </div>
+        </header>
+        <nav>
+            <div class="nav-container">
+                <!-- <a href="">vesti</a> -->
+                <a href="#evidencija">evidencija plaćanja</a>
+                <!-- <a href="">dokumenta</a> -->
+                <!-- <a href="">važni telefoni</a> -->
+                <a href="#nabavke">nabavke</a>
+                
+            </div>
+            <div class="nav-container">
+                <span>Email:&nbsp;</span>
+                <a href="mailto:durmitorska5@gmail.com">durmitorska5@gmail.com</a>
+            </div>
+        </nav>
+        <article>
+            <h2>Pokrećemo sajt</h2>
+            <p>Datum: 17-03-2019</p>
+            <p>Da bismo ojačali zajednicu, pokrećemo sajt stanara Durmitorske 5. Cilj je da obavestimo komšije o njihovim pravima i obavezama, kao i da omogućimo lakšu komunikaciju. U nadi smo da ćemo uskoro obezbediti i uvid u zajednički račun elektronskim putem.</p>
+            <p>
+                Nadamo se da ćete učestvovati u radu, sugestije možete dostaviti emailom:
+                <a href="mailto:durmitorska5@gmail.com">durmitorska5@gmail.com</a>
+            </p>
+        </article>
+        <article>
+            <h2>Korisne informacije</h2>
+            <a href="http://stanovanje.gov.rs/latinica/pitanja-i-odgovori.php">-> STANOVANJE, PITANJA I ODGOVORI</a>
+            <a href="https://www.paragraf.rs/propisi/zakon_o_stanovanju_i_odrzavanju_zgrada.html">-> ZAKON O STANOVANJU I ODRŽAVANJU ZGRADA</a>
+            <a href="https://www.paragraf.rs/propisi/odluka-o-minimalnoj-visini-iznosa-tekuceg-odrzavanja-zajednickih-delova-zgrada-visini-iznosa-naknade-u-slucaju-prinudno-postavljenog-profesionalnog-upravnika-i-minimalnoj-visini-iznosa.html">-> ODLUKA O MINIMALNOM IZNOSU TROŠKOVA ODRŽAVANJA ZGRADA</a>
+        </article>
+
+        <article>
+            <h2 id="nabavke">Nabavke</h2>
+            <p>U planu je nabavka magnetne brave i sistema za nadzor sa kamerama</p>
+            <a href="docs/nabavka1-1.jpg" target="_blank">Ponuda Pertel</a>
+            <a href="docs/nabavka1-2.jpg" target="_blank">Ponuda Beobum</a>
+            <a href="docs/nabavka1-3.jpg" target="_blank">Ponuda Anubis</a>
+        </article>
+
+        <article>
+            <h2 id="evidencija">Evidencija plaćanja</h2>
+            <p>Podaci ažurirani: 11-12-2018</p>
+            <table>
+                <tbody>
+                    <tr><th>STAN</th><th>KORISNIK</th><th class='broj-uplata'>BROJ UPLATA</th></tr>
+                    <tr><td>1</td><td>UDRUŽENJE NESALOMIVI</td><td class='broj-uplata'>5</td></tr>
+                    <tr><td>2</td><td>ZORAN LAZIĆ</td><td class='broj-uplata'>4</td></tr>
+                    <tr><td>3</td><td>DRAGAN VASILJEVIĆ</td><td class='broj-uplata'>4</td></tr>
+                    <tr><td>4</td><td>BOJAN RADOVIĆ</td><td class='broj-uplata'>7</td></tr>
+                    <tr><td>5</td><td>MIRA MILETIĆ</td><td class='broj-uplata'>5</td></tr>
+                    <tr><td>6</td><td>MILAN MALEŠEVIĆ</td><td class='broj-uplata'>4</td></tr>
+                    <tr><td>7</td><td>SNEŽANA LAZAREVIĆ</td><td class='broj-uplata'>1</td></tr>
+                    <tr><td>8</td><td>MILAN RUŠNOV</td><td class='broj-uplata'>4</td></tr>
+                    <tr><td>9</td><td>MILKA MARKOVIĆ</td><td class='broj-uplata'>6</td></tr>
+                    <tr><td>10</td><td>NIKOLA STOJANOVIĆ</td><td class='broj-uplata'>6</td></tr>
+                    <tr><td>11</td><td>VESELIN BAKIĆ</td><td class='broj-uplata'>4</td></tr>
+                    <tr><td>12</td><td>JELENA ŠUJICA</td><td class='broj-uplata'>4</td></tr>
+                    <tr><td>13</td><td>RADOSLAV AVLIJAŠ</td><td class='broj-uplata'>7</td></tr>
+                    <tr><td>14</td><td>VUČKOVIĆ ZAGORKA</td><td class='broj-uplata'>1</td></tr>
+                    <tr><td>15</td><td>DALIBOR MILOŠEVIĆ</td><td class='broj-uplata'>6</td></tr>
+                    <tr><td>16</td><td>SINIŠA PONJAVIĆ</td><td class='broj-uplata'>6</td></tr>
+                    <tr><td>17</td><td>MIROSLAV JEREMIĆ</td><td class='broj-uplata'>6</td></tr>
+                    <tr><td>18</td><td>MILINKO MAKSIMOVIĆ</td><td class='broj-uplata'>7</td></tr>
+                    <tr><td>19</td><td>DRAGO SIMIĆ</td><td class='broj-uplata'>5</td></tr>
+                    <tr><td>20</td><td>MOMČILO ĐURIĆ</td><td class='broj-uplata'>4</td></tr>
+                    <tr><td>21</td><td>SAŠA MILIĆEVIĆ</td><td class='broj-uplata'>6</td></tr>
+                    <tr><td>22</td><td>SIMIĆ</td><td class='broj-uplata'></td></tr>
+                    <tr><td>23</td><td>NEMANJA ALEKSIĆ</td><td class='broj-uplata'>5</td></tr>
+                    <tr><td>24</td><td>LEPOSAVA STEVANOVIĆ / MILOSAVLJEVIĆ</td><td class='broj-uplata'>7</td></tr>
+                    <tr><td>25</td><td>ZORAN NIČETIN</td><td class='broj-uplata'>2</td></tr>
+                    <tr><td>26</td><td>ANA ANDRIJAŠEVIĆ</td><td class='broj-uplata'>6</td></tr>
+                    <tr><td>27</td><td>NIKOLA STANISAVLJEVIĆ</td><td class='broj-uplata'>5</td></tr>
+                    <tr><td>28</td><td>RADOSAV STEPANOVIĆ</td><td class='broj-uplata'>7</td></tr>
+                    <tr><td>29</td><td>VLADAN MARJANOVIĆ</td><td class='broj-uplata'>6</td></tr>
+                    <tr><td>30</td><td>STRAHELI</td><td class='broj-uplata'></td></tr>
+                    <tr><td>31</td><td>STOJANOVIĆ</td><td class='broj-uplata'></td></tr>
+                    <tr><td>32</td><td>PETROVIĆ</td><td class='broj-uplata'></td></tr>
+                    <tr><td>lokal</td><td>RESTORAN DOMACE KUHINJE UR KRALJEVO</td><td class='broj-uplata'>7</td>
+                </tbody>
+            </table>
+        </article>
+    </main>
+    <script type="text/javascript">
+        let celijeBrojUplata = document.querySelectorAll(".broj-uplata");
+        let vrednostUplata = [];
+
+        // brojac krece od jedinice jer ne zelimo vrednost iz zaglavlja tabele
+        for (let i = 1; i < celijeBrojUplata.length; i++) {
+            vrednostUplata.push(celijeBrojUplata[i].innerHTML);
+        }
+
+        function onlyUnique(value, index, self) { 
+            return self.indexOf(value) === index;
+        }
+
+        var unique = vrednostUplata.filter(onlyUnique);
+    </script>
+</body>
+</html>

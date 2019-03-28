@@ -156,7 +156,8 @@ tr::nth-child(odd) {
 }
 
 .in,
-.out {
+.out,
+.misc {
     text-align: right;
 }
 

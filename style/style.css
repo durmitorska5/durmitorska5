@@ -155,6 +155,11 @@ tr::nth-child(odd) {
     margin: 5px;
 }
 
+.in,
+.out {
+    text-align: right;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
         flex-direction: column;

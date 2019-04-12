@@ -85,10 +85,12 @@
     }
 
     function populateSheet(result) {
-        for(let row=0; row<8; row++) {
-            for(let col=0; col<4; col++) {
+        for(let row=0; row < (result.values.length - 5); row++) {
+          document.getElementById('result').innerHTML += "<p>";
+            for(let col=0; col < 4; col++) {
                 document.getElementById('result').innerHTML += result.values[row][col];
             }
+          document.getElementById('result').innerHTML += "</p>";
         }
         console.log(result.values.length);
     }

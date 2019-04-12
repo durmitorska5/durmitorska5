@@ -87,11 +87,15 @@
     function populateSheet(result) {
       let table = document.getElementById('result');
 
-      for (let row = 0; row < (result.values.length - 4); row++) {
+      for (let row = 0; row < result.values.length; row++) {
           let tableRow = table.insertRow();
           for (let col = 0; col < 4; col++) {
               let tableCell = tableRow.insertCell();
-              let cellText = document.createTextNode(result.values[row][col]);
+              if (result.values[row][col] != undefined) {
+                let cellText = document.createTextNode(result.values[row][col]);
+              } else {
+                let cellText = document.createTextNode("");
+              }
               tableCell.appendChild(cellText);
           }
       }

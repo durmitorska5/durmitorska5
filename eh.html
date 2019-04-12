@@ -85,14 +85,19 @@
     }
 
     function populateSheet(result) {
-        for(let row=0; row < (result.values.length - 5); row++) {
-          document.getElementById('result').innerHTML += "<tr>";
-            for(let col=0; col < 4; col++) {
-                document.getElementById('result').innerHTML += "<td>"+result.values[row][col]+"</td>";
-            }
-          document.getElementById('result').innerHTML += "</tr>";
-        }
-        console.log(result.values.length);
+      let table = document.getElementById('result');
+
+      for(let row=0; row < (result.values.length - 4); row++) {
+        // document.getElementById('result').innerHTML += "<tr>";
+          let row = table.insertRow();
+          for(let col=0; col < 4; col++) {
+              // document.getElementById('result').innerHTML += "<td>"+result.values[row][col]+"</td>";
+              let cell = row.insertCell();
+              let text = document.createTextNode(element[key]);
+              cell.appendChild(text);
+          }
+        // document.getElementById('result').innerHTML += "</tr>";
+      }
     }
     </script>
     <script async defer src="https://apis.google.com/js/api.js"

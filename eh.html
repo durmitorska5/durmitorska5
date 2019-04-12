@@ -86,10 +86,11 @@
 
     function populateSheet(result) {
         for(let row=0; row<8; row++) {
-            for(let col=0; col<3; col++) {
+            for(let col=0; col<4; col++) {
                 document.getElementById('result').innerHTML += result.values[row][col];
             }
         }
+        console.log(result.values.length);
     }
     </script>
     <script async defer src="https://apis.google.com/js/api.js"

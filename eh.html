@@ -86,11 +86,11 @@
 
     function populateSheet(result) {
         for(let row=0; row < (result.values.length - 5); row++) {
-          document.getElementById('result').innerHTML += "<p>";
+          document.getElementById('result').innerHTML += "<tr>";
             for(let col=0; col < 4; col++) {
-                document.getElementById('result').innerHTML += result.values[row][col];
+                document.getElementById('result').innerHTML += "<td>"+result.values[row][col]+"</td>";
             }
-          document.getElementById('result').innerHTML += "</p>";
+          document.getElementById('result').innerHTML += "</tr>";
         }
         console.log(result.values.length);
     }
@@ -101,6 +101,6 @@
     </script>
     <button id="signin-button" onclick="handleSignInClick()">Sign in</button>
     <button id="signout-button" onclick="handleSignOutClick()">Sign out</button>
-    <p id="result"></p>
+    <table id="result"></table>
   </body>
 </html>

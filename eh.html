@@ -89,10 +89,10 @@
 
       for(let row=0; row < (result.values.length - 4); row++) {
         // document.getElementById('result').innerHTML += "<tr>";
-          let row = table.insertRow();
+          let rowa = table.insertRow();
           for(let col=0; col < 4; col++) {
               // document.getElementById('result').innerHTML += "<td>"+result.values[row][col]+"</td>";
-              let cell = row.insertCell();
+              let cell = rowa.insertCell();
               let text = document.createTextNode(result.values[row][col]);
               cell.appendChild(text);
           }

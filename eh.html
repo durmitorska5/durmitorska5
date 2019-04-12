@@ -91,10 +91,9 @@
           let tableRow = table.insertRow();
           for (let col = 0; col < 4; col++) {
               let tableCell = tableRow.insertCell();
-              if (result.values[row][col] != undefined) {
-                let cellText = document.createTextNode(result.values[row][col]);
-              } else {
-                let cellText = document.createTextNode("");
+              let cellText = document.createTextNode(result.values[row][col]);
+              if (result.values[row][col] == undefined) {
+                cellText = document.createTextNode("");
               }
               tableCell.appendChild(cellText);
           }

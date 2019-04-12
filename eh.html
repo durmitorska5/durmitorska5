@@ -93,7 +93,7 @@
           for(let col=0; col < 4; col++) {
               // document.getElementById('result').innerHTML += "<td>"+result.values[row][col]+"</td>";
               let cell = row.insertCell();
-              let text = document.createTextNode(element[key]);
+              let text = document.createTextNode(result.values[row][col]);
               cell.appendChild(text);
           }
         // document.getElementById('result').innerHTML += "</tr>";

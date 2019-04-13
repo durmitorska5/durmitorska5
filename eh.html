@@ -70,11 +70,11 @@
       gapi.load('client:auth2', initClient);
     }
 
-    // function updateSignInStatus(isSignedIn) {
-      // if (isSignedIn) {
+    function updateSignInStatus(isSignedIn) {
+      if (isSignedIn) {
         makeApiCall();
-      // }
-    // }
+      }
+    }
 
     function handleSignInClick(event) {
       gapi.auth2.getAuthInstance().signIn();

@@ -70,19 +70,19 @@
       gapi.load('client:auth2', initClient);
     }
 
-    function updateSignInStatus(isSignedIn) {
-      if (isSignedIn) {
+    // function updateSignInStatus(isSignedIn) {
+      // if (isSignedIn) {
         makeApiCall();
-      }
-    }
+      // }
+    // }
 
-    function handleSignInClick(event) {
-      gapi.auth2.getAuthInstance().signIn();
-    }
+    // function handleSignInClick(event) {
+    //   gapi.auth2.getAuthInstance().signIn();
+    // }
 
-    function handleSignOutClick(event) {
-      gapi.auth2.getAuthInstance().signOut();
-    }
+    // function handleSignOutClick(event) {
+    //   gapi.auth2.getAuthInstance().signOut();
+    // }
 
     function populateSheet(result) {
       let table = document.getElementById('result');
@@ -92,6 +92,11 @@
           for (let col = 0; col < 4; col++) {
               let tableCell = tableRow.insertCell();
               let cellText = document.createTextNode(result.values[row][col]);
+              if (col == 2) {
+                tableCell.classList = "in";
+              } else if (col == 3) {
+                tableCell.classList = "out";
+              }
               if (result.values[row][col] == undefined) {
                 cellText = document.createTextNode("");
               }

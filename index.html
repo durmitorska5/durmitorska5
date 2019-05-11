@@ -13,6 +13,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-136341805-1');
     </script>
+    <script src="data/data.js"></script>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
@@ -58,9 +59,10 @@
             <a href="docs/nabavka1-3.jpg" target="_blank">Ponuda Anubis</a>
         </article>
 
+        <div id="proba"></div>
         <article>
             <h2>> EVIDENCIJA PLAĆANJA</h2>
-            <p>Podaci ažurirani: 26-04-2019</p>
+            <p>Podaci ažurirani: 11-05-2019</p>
             <p>Crvenom bojom su obeležene isplate sa računa</p>
             <table>
                 <tbody>
@@ -401,10 +403,18 @@
                     <tr><td>25.04.2019</td><td>STAN 07</td><td class='in'>2,330.00</td></tr>
                     <tr><td>25.04.2019</td><td>STAN 09</td><td class='in'>1,458.00</td></tr>
                     <tr><td>25.04.2019</td><td>STAN 21</td><td class='in'>1,457.72</td></tr>
+                    <tr><td>30.04.2019</td><td>BANCA INTESA AD</td><td class='out'>485.00</td></tr>
+                    <tr><td>30.04.2019</td><td>BANCA INTESA AD</td><td class='out'>65.00</td></tr>
+                    <tr><td>30.04.2019</td><td>STAN 05</td><td class='in'>1,441.46</td></tr>
+                    <tr><td>06.05.2019</td><td>STAN 10</td><td class='in'>945.53</td></tr>
+                    <tr><td>09.05.2019</td><td>STAN 09</td><td class='in'>1,458.00</td></tr>
+                    <tr><td>09.05.2019</td><td>STAN 01</td><td class='in'>1,441.46</td></tr>
+                    <tr><td>10.05.2019</td><td>STAN 18</td><td class='in'>945.53</td></tr>
+                    <tr><td>11.05.2019</td><td>STAN 23</td><td class='in'>1,173.17</td></tr>
                     <tr><td></td><td></td><td></td></tr>
-                    <tr><td></td><td>A) Uplate</td><td class='misc'>356,708.93</td></tr>
-                    <tr><td></td><td>B) Isplate</td><td class='misc'>133,378.69</td></tr>
-                    <tr id='evidencija'><td></td><td>Trenutno na racunu A-B (do 21-04-2019)</td><td class='misc'>223,330.24</td></tr>
+                    <tr><td></td><td>A) Uplate</td><td class='misc'>364,114.08</td></tr>
+                    <tr><td></td><td>B) Isplate</td><td class='misc'>133,928.69</td></tr>
+                    <tr id='evidencija'><td></td><td>Trenutno na racunu A-B</td><td class='misc'>230,185.39</td></tr>
                 </tbody>
             </table>
         </article>
@@ -437,6 +447,20 @@
         for (let i = 0; i < izlaz.length; i++) {
             izlaz[i].parentNode.style.backgroundColor = "rgb(255,56,7)";
         }
+
+        // function ocekivaneUplate() {
+            
+        // }
+
+        // let uplate = 0;
+        // let isplate = 0;
+        // let suma = 0;
+        // for (let i = 0; i < data.length; i++) {
+        //     uplate += Number(data[i][3])
+        //     isplate += Number(data[i][4]);
+        //     suma = uplate - isplate;
+        // }
+        // alert(`${uplate.toFixed(2)}, ${isplate.toFixed(2)}, ${suma.toFixed(2)}`);
     </script>
 </body>
 </html>

@@ -23,7 +23,19 @@ nav {
     justify-content: space-between;
 }
 
-nav a {
+#sadrzaj tr:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+.fix {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+nav a,
+.button {
     /* margin-right: 20px; */
     display: inline-block;
     border-radius: 20px;
@@ -33,6 +45,7 @@ nav a {
     text-decoration: none;
     padding: 10px 20px;
     margin: 5px;
+    cursor: pointer;
 }
 
 nav a:hover {

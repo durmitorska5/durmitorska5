@@ -1,0 +1,30 @@
+.Button {
+  display: inline-block;
+  border-radius: 20px;
+  background: transparent;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: 0;
+}
+
+.Button:hover {
+  opacity: 0.5;
+}
+
+.Button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.Success {
+  background: #ffc107;
+  color: #212529;
+}
+
+.Danger {
+  background: orangered;
+  color: white;
+}

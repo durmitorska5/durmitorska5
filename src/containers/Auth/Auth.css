@@ -1,0 +1,23 @@
+.Auth {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  background-color: rgb(240, 240, 240);
+}
+
+.AuthButton {
+  margin-top: 20px;
+}
+
+.Error {
+  color: red;
+}
+
+@media (min-width: 600px) {
+  .Auth {
+    width: 320px;
+  }
+}

@@ -54,7 +54,7 @@ class Dashboard extends Component {
             <h2>RAČUN SZ</h2>
             <a href="/docs/Racun SZ/09_04_2019_Uplate i dugovanja.pdf" target="_blank" className="Button Success">09_04_2019_Uplate i dugovanja.pdf</a>
             <a href="/docs/Racun SZ/09_05_2019_Uplate i dugovanja.pdf" target="_blank" className="Button Success">09_05_2019_Uplate i dugovanja.pdf</a>
-            <a href="/docs/Racun SZ /23_07_2020_Isplate.pdf" target="_blank" className="Button Success">23_07_2020_Isplate.pdf</a>
+            <a href="/docs/Racun SZ/23_07_2020_Isplate.pdf" target="_blank" className="Button Success">23_07_2020_Isplate.pdf</a>
             <a href="/docs/Racun SZ/23_07_2020_Uplate i dugovanja.pdf" target="_blank" className="Button Success">23_07_2020_Uplate i dugovanja.pdf</a>
             <a href="/docs/Racun SZ/Izvodi/izvodi.zip" target="_blank" className="Button Success"> izvodi.zip</a>
           </article>

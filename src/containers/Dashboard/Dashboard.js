@@ -53,24 +53,24 @@ class Dashboard extends Component {
           <article>
             <h2>RAČUN SZ</h2>
             <a href="/docs/Racun SZ/09_04_2019_Uplate i dugovanja.pdf" target="_blank" className="Button Success">09_04_2019_Uplate i dugovanja.pdf</a>
-            <a href="/docs / Racun SZ /09_05_2019_Uplate i dugovanja.pdf" target="_blank" className="Button Success">09_05_2019_Uplate i dugovanja.pdf</a>
-            <a href="/docs / Racun SZ /23_07_2020_Isplate.pdf" target="_blank" className="Button Success">23_07_2020_Isplate.pdf</a>
-            <a href="/docs / Racun SZ /23_07_2020_Uplate i dugovanja.pdf" target="_blank" className="Button Success">23_07_2020_Uplate i dugovanja.pdf</a>
-            <a href="/docs / Racun SZ / Izvodi / izvodi.zip" target="_blank" className="Button Success"> izvodi.zip</a>
+            <a href="/docs/Racun SZ/09_05_2019_Uplate i dugovanja.pdf" target="_blank" className="Button Success">09_05_2019_Uplate i dugovanja.pdf</a>
+            <a href="/docs/Racun SZ /23_07_2020_Isplate.pdf" target="_blank" className="Button Success">23_07_2020_Isplate.pdf</a>
+            <a href="/docs/Racun SZ/23_07_2020_Uplate i dugovanja.pdf" target="_blank" className="Button Success">23_07_2020_Uplate i dugovanja.pdf</a>
+            <a href="/docs/Racun SZ/Izvodi/izvodi.zip" target="_blank" className="Button Success"> izvodi.zip</a>
           </article>
           <article>
           <h2>REMONT LIFTA</h2>
             <a href="/docs/Remont lifta/Naplata - Remont lifta - 04-06-2020.pdf" target="_blank" className="Button Success">Naplata - Remont lifta - 04-06-2020.pdf</a>
-            <a href="/docs / Remont lifta / Ponuda - Remont lifta.pdf" target="_blank" className="Button Success"> Ponuda - Remont lifta.pdf</a>
-            <a href="/docs / Remont lifta / Potpisi - Remont lifta.pdf" target="_blank" className="Button Success"> Potpisi - Remont lifta.pdf</a>
-            <a href="/docs / Remont lifta / Ugovor - Remont lifta.pdf" target="_blank" className="Button Success"> Ugovor - Remont lifta.pdf</a>
+            <a href="/docs/Remont lifta/Ponuda - Remont lifta.pdf" target="_blank" className="Button Success"> Ponuda - Remont lifta.pdf</a>
+            <a href="/docs/Remont lifta/Potpisi - Remont lifta.pdf" target="_blank" className="Button Success"> Potpisi - Remont lifta.pdf</a>
+            <a href="/docs/Remont lifta/Ugovor - Remont lifta.pdf" target="_blank" className="Button Success"> Ugovor - Remont lifta.pdf</a>
           </article>
           <article>
             <h2>UPRAVLJANJE ZGRADOM</h2>
             <a href="/docs/Upravljanje zgradom/Odluka - Tekuce i investiciono odrzavanje.pdf" target="_blank" className="Button Success">Odluka - Tekuce i investiciono odrzavanje.pdf</a>
-            <a href="/docs / Upravljanje zgradom / Ponuda - Upravljanje.pdf" target="_blank" className="Button Success"> Ponuda - Upravljanje.pdf</a>
-            <a href="/docs / Upravljanje zgradom / Ugovor - Infostan.pdf" target="_blank" className="Button Success"> Ugovor - Infostan.pdf</a>
-            <a href="/docs / Upravljanje zgradom / Ugovor - Upravljanje SZ.pdf" target="_blank" className="Button Success"> Ugovor - Upravljanje SZ.pdf</a>
+            <a href="/docs/Upravljanje zgradom/Ponuda - Upravljanje.pdf" target="_blank" className="Button Success"> Ponuda - Upravljanje.pdf</a>
+            <a href="/docs/Upravljanje zgradom/Ugovor - Infostan.pdf" target="_blank" className="Button Success"> Ugovor - Infostan.pdf</a>
+            <a href="/docs/Upravljanje zgradom/Ugovor - Upravljanje SZ.pdf" target="_blank" className="Button Success"> Ugovor - Upravljanje SZ.pdf</a>
           </article>
           <article>
             <h2>VEŠERNICA</h2>
@@ -79,16 +79,16 @@ class Dashboard extends Component {
           <article>
             <h2>VIDEO NADZOR</h2>
             <a href="/docs/Video nadzor/1-Zakon o privatnom obezbedjenju.pdf" target="_blank" className="Button Success">1-Zakon o privatnom obezbedjenju.pdf</a>
-            <a href="/docs / Video nadzor / 2 - Zakon o izmenama i dopunama  zakona o privatnom obezbedjenju 87_2018.pdf" target="_blank" className="Button Success"> 2 - Zakon o izmenama i dopunama  zakona o privatnom obezbedjenju 87_2018.pdf</a>
-            <a href="/docs / Video nadzor / Izvod_video_nadzor.pdf" target="_blank" className="Button Success"> Izvod_video_nadzor.pdf</a>
-            <a href="/docs / Video nadzor / Ponuda video nadzor.pdf" target="_blank" className="Button Success"> Ponuda video nadzor.pdf</a>
-            <a href="/docs / Video nadzor / Zapisnici i potvrde_video nadzor.pdf" target="_blank" className="Button Success"> Zapisnici i potvrde_video nadzor.pdf</a>
+            <a href="/docs/Video nadzor/2 - Zakon o izmenama i dopunama  zakona o privatnom obezbedjenju 87_2018.pdf" target="_blank" className="Button Success"> 2 - Zakon o izmenama i dopunama  zakona o privatnom obezbedjenju 87_2018.pdf</a>
+            <a href="/docs/Video nadzor/Izvod_video_nadzor.pdf" target="_blank" className="Button Success"> Izvod_video_nadzor.pdf</a>
+            <a href="/docs/Video nadzor/Ponuda video nadzor.pdf" target="_blank" className="Button Success"> Ponuda video nadzor.pdf</a>
+            <a href="/docs/Video nadzor/Zapisnici i potvrde_video nadzor.pdf" target="_blank" className="Button Success"> Zapisnici i potvrde_video nadzor.pdf</a>
           </article>
           <article>
             <h2>VRATA I PRISTUP</h2>
             <a href="/docs/Vrata i pristup/Citac_kartica_izvod.pdf" target="_blank" className="Button Success">Citac_kartica_izvod.pdf</a>
-            <a href="/docs / Vrata i pristup / Popravka_vrata_oprema_izvod.pdf" target="_blank" className="Button Success"> Popravka_vrata_oprema_izvod.pdf</a>
-            <a href="/docs / Vrata i pristup / Popravka_vrata_racun.pdf" target="_blank" className="Button Success"> Popravka_vrata_racun.pdf</a>
+            <a href="/docs/Vrata i pristup/Popravka_vrata_oprema_izvod.pdf" target="_blank" className="Button Success"> Popravka_vrata_oprema_izvod.pdf</a>
+            <a href="/docs/Vrata i pristup/Popravka_vrata_racun.pdf" target="_blank" className="Button Success"> Popravka_vrata_racun.pdf</a>
           </article>
           <article>
             <h2>ZAKON</h2>

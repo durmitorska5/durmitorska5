@@ -14,7 +14,3 @@ body {
 *:focus {
   outline: none;
 }
-
-a {
-  display: block;
-}
